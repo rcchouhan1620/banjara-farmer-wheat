@@ -17,7 +17,7 @@
         <a routerLink="/home" routerLinkActive="active-link" class="nav-item">Home</a>
         <a routerLink="/regions" routerLinkActive="active-link" class="nav-item">Regions</a>
         <a routerLink="/enquiry" routerLinkActive="active-link" class="nav-item">Enquiry</a>
-        <a routerLink="/about" routerLinkActive="active-link" class="nav-item">About Us</a>
+        <a routerLink="/about" routerLinkActive="active-link" class="nav-item">About</a>
         <button *ngIf="(isLoggedIn$ | async); else loginButton" 
                 (click)="logout()" 
                 class="bg-red-500 hover:bg-red-600 px-4 py-1 rounded transition">
